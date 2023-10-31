@@ -7,9 +7,8 @@
 * uart_tb is the testbench specifying input data to test the proper functioning of UART.<br><br>
 
 The gate level netlist of the UART is shown below: <br>
-![](uart_gate_level_netlist.png) <br> <br>
-
-The internal netlist for the transmitter module: <br>
+![](uart_gate_level_netlist.png) <br>
+The internal netlist for the receiver module: <br><br>
 ![](tx_netlist.png) <br> <br>
 The internal netlist for the transmitter module: <br><br>
 ![](rx_netlist.png) <br> <br>
