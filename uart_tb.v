@@ -5,7 +5,7 @@
 module uart_tb ();
  
   // Testbench uses a 10 MHz clock
-  // Want to interface to 115200 baud UART
+  // Want to interface to 115200 Bits/sec baud UART
   // 10000000 / 115200 = 87 Clocks Per Bit.
   parameter c_CLOCK_PERIOD_NS = 100;
   parameter c_CLKS_PER_BIT    = 87;
