@@ -1,6 +1,7 @@
 # UART
- Universal asynchronous receiver transmitter. This project was made using Verilog, synthesized using Vivado, and implemented on Nexys 4 FPGA. 
- 
+Universal Asynchronous Receiver Transmitter. UART has a term 'asynchronous' because the receiver (rx) and transmitter (tx) can work at different clock speeds. The data transfer is governed by Baud rate. The unit of Baud rate is bits/sec and it represents the speed at which we are transferring bits from the tx to rx. The synchronization between tx and rx is done through a common baud rate. </p>
+This project was made using Verilog, synthesized using Xilinx Vivado.
+
 * The uart_tx file contains the code for the transmitter module
 * uart_rx is for the receiver module
 * uart_top is the top-level module file specifying connections between input, transmitter, receiver, and output data. 
